@@ -1,0 +1,14 @@
+@import 'variables';
+@import 'reset';
+@import 'base';
+@import 'layout';
+@import 'media';
+@import 'typography';
+@import 'buttons';
+@import 'forms';
+@import 'utilities';
+
+.products {
+    grid-template-columns: repeat(2, 48.5%);
+    column-gap: 3%;
+}
