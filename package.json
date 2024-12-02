@@ -1,0 +1,14 @@
+{
+    "name": "meu-projeto",
+    "version": "1.0.0",
+    "description": "Projeto com Sass",
+    "main": "index.js",
+    "scripts": {
+      "sass": "sass --watch styles/styles.scss:styles/styles.css"
+    },
+    "author": "Seu Nome",
+    "license": "ISC",
+    "dependencies": {
+      "sass": "^1.32.0"
+    }
+  }

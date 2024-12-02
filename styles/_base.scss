@@ -1,7 +1,9 @@
-body {
-    background-color: $background-color;
-}
+@use 'variables';
 
+body {
+    background-color: variables.$background-color;
+    font-family: variables.$font-family;
+}
 li {
     list-style: none;
 }

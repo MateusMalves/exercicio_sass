@@ -1,11 +1,13 @@
+@use 'variables';
+
 .container {
-    max-width: $max-width;
+    max-width: variables.$max-width;
     width: 100%;
     margin: 0 auto;
 }
 
 header {
-    background-color: $primary-color;
+    background-color: variables.$primary-color;
     position: sticky;
     top: 0;
 }
